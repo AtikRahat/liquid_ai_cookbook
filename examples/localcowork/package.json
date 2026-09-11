@@ -2,7 +2,7 @@
   "name": "localcowork",
   "version": "0.1.0",
   "private": true,
-  "description": "LocalCowork — on-device AI agent desktop app",
+  "description": "LocalCowork \u2014 on-device AI agent desktop app",
   "type": "module",
   "workspaces": [
     "src",
@@ -18,8 +18,8 @@
     "mcp-servers/_shared/ts"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint src/ mcp-servers/*/src/ --ext .ts,.tsx",
     "lint:fix": "eslint src/ mcp-servers/*/src/ --ext .ts,.tsx --fix",

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "node init && vite"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.7.1",
